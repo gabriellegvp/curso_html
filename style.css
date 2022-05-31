@@ -1,5 +1,8 @@
 body {background: #ccc;
 font-family: verdana;
+max-width: 655px;
+margin: auto;
+
 
 }
 #title, subtitle, .post_title{
@@ -23,15 +26,18 @@ text-transform: uppercase;
 
 .post {
    background: #fff;
-padding: 10px;
-border: 3px solid #000;
-margin: 10px;
+padding: 15px;
+border: 3px solid #505050;
+margin-bottom: : 15px;
+border-radius: 5px;
+text-align: justify;
  }
 
 .post_content {
 margin: 0;
 margin-bottom: 15px;
 text-transform: capitalize;
+text-align: right;
 
 }
 
@@ -40,6 +46,7 @@ text-transform: capitalize;
 .post-image {
 
   margin-bottom: 15px;
+  width: 100%;
 }
 
  .contacts_list
